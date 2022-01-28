@@ -12,19 +12,19 @@ This software is designed as is for an in class project.
 
 
 ## Usage example
-> Navigate to build folder
+> Navigate to CS219 folder, then Programming Project Part 1
 ```sh
-> make main
-> ./main
+> make
+> ./proj1
 ```
 ## Development setup
 
 Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
 
 ```sh
-sudo apt-add-repository ppa:ubuntu-desktop/ubuntu-make
-sudo apt-get update
-sudo apt-get install ubuntu-make
+sudo apt install g++
+sudo apt install make
+sudo apt install build-essential
 ```
 
 
@@ -32,14 +32,10 @@ sudo apt-get install ubuntu-make
 
 * 1.0
     * CHANGE: Final Release
-* 0.4.0
-    * CHANGE: Bug fix
-* 0.3.0
-    * CHANGE: Added a function etc
 * 0.2.0
-    * CHANGE: Bug fix
+    * CHANGE: Created hex to dec and dec to hex converters
 * 0.1.0
-    * CHANGE: Code base implemented 
+    * CHANGE: Created the header files
 
 
 ## Meta
@@ -48,7 +44,7 @@ Shawn Ray - Shawnray@nevada.unr.edu
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[Github](github goes here)
+[Github](https://github.com/Chi-Jonathan/Programming-project-1-CS219.git)
 
 ## Contributing
 
